@@ -34,7 +34,7 @@ export const Form = styled.form<FormProps>`
       props.hasError &&
       css`
         border-color: #c53030;
-      `}1
+      `}
 
     &::placeholder {
       color: #a8a8b3;
@@ -85,6 +85,7 @@ export const Repositories = styled.div`
       width: 64px;
       height: 64px;
       border-radius: 50%;
+      margin-right: 15px;
     }
 
     div {
